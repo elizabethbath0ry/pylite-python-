@@ -1,15 +1,13 @@
 # pylite (python)
 
-Pylite is project started by @Tams-Tams in https://github.com/Tams-Tams/PyLite, and it is written in Javascript. 
-
-So I decided to make a python implementation of it.
+Pylite is originally a project started by @Tams-Tams in https://github.com/Tams-Tams/PyLite, written in Javascript. 
 
 # Manual
 
-(The project is unfinished)
+(Work in progress )
 
 * To print text use the `say` statement: `say "Hello, World!"`
-* To define a variable you can use `def` statement. Everything should be enclosed in string, and they will be cast to their correct types in runtime: `def "abcd" "1234"` it will define a variable `abcd` with integer `1234`.
-* To concatenate variables with string, enclose them in braces: `say "{abcd}HW{abcd}"` expands to `say "1234HW1234"`.
+* Variables can be declared using the `def` statement. Both parameters should be enclosed in a literal, and type-casting will be handled runtime. for instance, `def "abcd" "1234"` will initialize a variable `abcd` with the value of `1234`.
+* use the brace notation to concatenate literals with variables: `say "{abcd}HW{abcd}"` evaluates to `say "1234HW1234"`.
 
 
